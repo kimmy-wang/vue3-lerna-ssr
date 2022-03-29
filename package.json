@@ -1,0 +1,20 @@
+{
+  "name": "vue3-lerna-ssr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:mobile": "yarn workspace mobile build",
+    "build:home": "yarn workspace home build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
