@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "vue": "3.2.31",
+    "express": "4.17.3"
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
   },
